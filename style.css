@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
     margin: 0;
+    height: 100vh;
+
 }
 
-h1 {
+#title {
     font-size: 1em;
     margin-bottom: 20px;
 }
 
+
 #card > div {
+    font-family: 'Space Grotesk', sans-serif;
     margin: 5px;
 }
 
 main {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +73,9 @@ main {
     width: 40px;
 }
 
+
+
+
 .timer{
     display: flex;
     justify-content: space-between;
@@ -77,6 +84,21 @@ main {
 }
 #progress {
     width: 250px;
+}
+
+footer > p{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+    font-weight: 400;
+
+}
+
+footer > p > span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-left: 4px;
 }
 
 

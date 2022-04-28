@@ -21,7 +21,7 @@ let data = [
         title: "As It Was",
         artist: "Harry Styles",
         file: "assets/Harry Styles - As It Was.mp3",
-        background: "linear-gradient(35deg, #356B8C 0%, #E5D6BF 50%, #BF926B 100%)"
+        background: "linear-gradient(35deg, #356B8C 0%, #E5D6BF 40%, #BF926B 100%)"
     },
     {
         image: "images/Stay_-_The_Kid_Laroi_e_Justin_Bieber.png",
@@ -42,7 +42,7 @@ let data = [
         title: "THATS WHAT I WANT",
         artist: "Lil Nas X",
         file: "assets/Lil Nas X - THATS WHAT I WANT.mp3",
-        background: "linear-gradient(339deg, #db8cba 7%, #fff 50%, #7ca0c4 100%)"
+        background: "linear-gradient(339deg, #db8cba 7%, #ddd 50%, #7ca0c4 100%)"
     }
 ]
 
