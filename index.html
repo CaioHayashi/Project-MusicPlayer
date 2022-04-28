@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="card">
+            <div>
+                <h1 id="title">Player Music.</h1>
+            </div>
+            <div id="midias">
+                <img id="img" src="">
+                <audio id="audio" src=""></audio>
+            </div>
+            <div id="names">
+                <h2 id="track-name">Track name</h2>
+                <h3 id="track-artist">Track artist</h3>
+            </div>
+            <div class="btns">
+                <img class="btn1" id="back" src="buttons/skip-back.svg" alt="back">
+                <img class="btn2" id="play" src="buttons/play-circle.svg" alt="play">
+                <img class="btn1" id="foward" src="buttons/skip-forward.svg" alt="foward">
+            </div>
+            <div>
+                <div class="timer">
+                    <span id="current-time">0:00</span>
+                    <span id="total-duration">0:00</span>
+                </div>
+                <input id="progress"  type="range" min="1" value="0" max="100">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

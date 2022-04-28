@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300;400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+#card > div {
+    margin: 5px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.281);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px 0px #33333370;
+}
+
+#img {
+    box-shadow: 5px 10px 18px 0px #33333370;
+
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; 
+}
+
+#names {
+    font-size: .85rem;
+    font-style: italic;
+}
+
+#names > #track-artist {
+    font-weight: normal;
+}
+
+.btns{
+    display: flex;
+}
+
+.btns > .btn2 {
+    width: 65px;
+
+}
+
+.btns > .btn1 {
+    width: 40px;
+}
+
+.timer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: .80rem;
+}
+#progress {
+    width: 250px;
+}
+
+
+
+
+
+
+
