@@ -101,6 +101,11 @@ footer > p > span {
     margin-left: 4px;
 }
 
+@media (max-height: 600px){
+    footer {
+        display: none;
+    }
+}
 
 
 
