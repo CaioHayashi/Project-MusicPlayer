@@ -149,7 +149,7 @@ footer > a > img {
 }
 
 @media (max-width: 820px){
-    #text {
+    section {
         display: none;
         transition: 1s;
     }
