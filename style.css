@@ -178,6 +178,13 @@ footer > img {
 }
 
 
+@media (min-height: 700px){
+    #card {
+        height: 800px;
+    }
+}
+
+
 
 
 
