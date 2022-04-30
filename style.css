@@ -32,7 +32,7 @@ main {
 }
 
 #card {
-    min-height: 70vh;
+    min-height: 77vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -178,12 +178,17 @@ footer > img {
 }
 
 
-@media (min-height: 700px){
-    #card {
-        height: 800px;
-    }
+@media (min-height: 680px){
+   #card{
+        min-height: 40vh;
+   }
 }
 
+@media (min-height: 100px){
+    #card{
+         min-height: 20vh;
+    }
+ }
 
 
 
